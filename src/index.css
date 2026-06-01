@@ -1,12 +1,12 @@
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
+  --text: #5d4631;
+  --text-h: #24180f;
+  --bg: #f2efe7;
+  --border: #d9c8b6;
+  --code-bg: #e7ded3;
+  --accent: #d35400;
+  --accent-bg: rgba(211, 84, 0, 0.12);
+  --accent-border: rgba(211, 84, 0, 0.5);
   --social-bg: rgba(244, 243, 236, 0.5);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
@@ -32,15 +32,15 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
+    --text: #d9c8b6;
+    --text-h: #fff3e8;
     --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
+    --border: #372f27;
+    --code-bg: #2b2620;
+    --accent: #f9a153;
+    --accent-bg: rgba(249, 161, 83, 0.18);
+    --accent-border: rgba(249, 161, 83, 0.45);
+    --social-bg: rgba(57, 48, 37, 0.5);
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   }
@@ -48,6 +48,17 @@
   #social .button-icon {
     filter: invert(1) brightness(2);
   }
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg) url('/image.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 #root {
@@ -60,10 +71,6 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
 }
 
 h1,

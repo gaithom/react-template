@@ -8,12 +8,12 @@ const styles = {
     display: 'flex',
     justifyContent: 'flex-start',
     alignItems: 'stretch',
-    background: 'linear-gradient(180deg, rgba(170,59,255,0.08), rgba(255,255,255,1) 45%)',
+    background: 'linear-gradient(180deg, rgba(211,84,0,0.08), rgba(242,239,231,1) 45%)',
   },
   card: {
     width: '100%',
     maxWidth: '900px',
-    background: 'rgba(255, 255, 255, 0.96)',
+    background: 'rgba(230, 211, 188, 0.95)',
     border: '1px solid var(--border)',
     borderRadius: '28px',
     boxShadow: '0 24px 70px rgba(15, 23, 42, 0.08)',
@@ -38,8 +38,8 @@ const styles = {
   statCard: {
     borderRadius: '20px',
     padding: '24px',
-    background: 'rgba(170, 59, 255, 0.07)',
-    border: '1px solid rgba(170, 59, 255, 0.18)',
+    background: 'rgba(211, 84, 0, 0.08)',
+    border: '1px solid rgba(211, 84, 0, 0.18)',
   },
   statTitle: {
     margin: 0,

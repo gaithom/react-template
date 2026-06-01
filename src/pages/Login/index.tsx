@@ -8,7 +8,7 @@ const styles = {
     display: 'flex',
     justifyContent: 'flex-start',
     alignItems: 'stretch',
-    background: 'linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(170, 59, 255, 0.08))',
+    background: 'linear-gradient(180deg, rgba(239, 219, 188, 1), rgba(211, 84, 0, 0.08))',
   },
   card: {
     width: '100%',
@@ -17,7 +17,7 @@ const styles = {
     borderRadius: '28px',
     border: '1px solid var(--border)',
     boxShadow: '0 28px 70px rgba(15, 23, 42, 0.08)',
-    background: 'rgba(255, 255, 255, 0.97)',
+    background: 'rgba(230, 211, 188, 0.96)',
   },
   logo: {
     display: 'inline-block',

@@ -10,7 +10,7 @@ const styles: Record<string, CSSProperties> = {
     display: 'flex',
     justifyContent: 'flex-start',
     alignItems: 'stretch',
-    background: 'linear-gradient(180deg, rgba(255,255,255,1), rgba(170,59,255,0.08))',
+    background: 'linear-gradient(180deg, rgba(239,219,188,1), rgba(211,84,0,0.08))',
   },
   hero: {
     width: '100%',
@@ -87,7 +87,7 @@ const styles: Record<string, CSSProperties> = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    background: 'rgba(255,255,255,0.9)',
+    background: 'rgba(230,211,188,0.96)',
   },
   image: {
     width: '100%',
